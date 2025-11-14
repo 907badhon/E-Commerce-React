@@ -1,14 +1,14 @@
 const products = [
   {
-    image: "src/assets/CartImg/ak-900-01-500x500 1.svg",
+    image: "/assets/CartImg/ak-900-01-500x500-1.svg",
     name: "Gaming Controller AK-900",
     price: 59,
     oldPrice: 99,
     rating: { stars: 4, count: 120 },
-    discount: "-40%", 
+    discount: "-40%",
   },
   {
-    image: "src/assets/CartImg/71RdoeXxtrL 1.svg",
+    image: "/assets/CartImg/71RdoeXxtrL-1.svg",
     name: "GP11 Gaming Mouse",
     price: 560,
     oldPrice: 799,
@@ -16,7 +16,7 @@ const products = [
     discount: "-30%",
   },
   {
-    image: "src/assets/CartImg/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.svg",
+    image: "/assets/CartImg/gucci-savoy-duffle.svg",
     name: "HAVIT HV-G92 Gamepad",
     price: 120,
     oldPrice: 160,
@@ -24,7 +24,7 @@ const products = [
     discount: "-25%",
   },
   {
-    image: "src/assets/CartImg/eos-250d-03-500x500 1.svg",
+    image: "/assets/CartImg/eos-250d-03-500x500-1.svg",
     name: "S-Series Comfort Chair",
     price: 375,
     oldPrice: 499,
@@ -32,7 +32,7 @@ const products = [
     discount: "-24%",
   },
   {
-    image: "src/assets/CartImg/Frame 611.svg",
+    image: "/assets/CartImg/frame-611.svg",
     name: "ASUS ROG Gaming Laptop",
     price: 700,
     oldPrice: 950,
@@ -40,7 +40,7 @@ const products = [
     discount: "-26%",
   },
   {
-    image: "src/assets/CartImg/g27cq4-500x500 1.svg",
+    image: "/assets/CartImg/g27cq4-500x500-1.svg",
     name: "CANON EOS DSLR Camera",
     price: 360,
     oldPrice: 450,
@@ -48,7 +48,7 @@ const products = [
     discount: "-20%",
   },
   {
-    image: "src/assets/CartImg/gammaxx-l240-argb-1-500x500 1.svg",
+    image: "/assets/CartImg/gammaxx-l240-argb-1-500x500-1.svg",
     name: "JBL Bluetooth Speaker",
     price: 180,
     oldPrice: 250,
@@ -56,7 +56,7 @@ const products = [
     discount: "-28%",
   },
   {
-    image: "src/assets/CartImg/GP11_PRD3 1.svg",
+    image: "/assets/CartImg/gp11-prd3-1.svg",
     name: "Gucci Duffle Bag",
     price: 960,
     oldPrice: 1200,
@@ -64,7 +64,7 @@ const products = [
     discount: "-20%",
   },
   {
-    image: "src/assets/CartImg/ideapad-gaming-3i-01-500x500 1.svg",
+    image: "/assets/CartImg/ideapad-gaming-3i-01-500x500-1.svg",
     name: "RGB Liquid CPU Cooler",
     price: 160,
     oldPrice: 220,
@@ -72,7 +72,7 @@ const products = [
     discount: "-27%",
   },
   {
-    image: "src/assets/CartImg/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.svg",
+    image: "/assets/CartImg/satin-jacket-1.svg",
     name: "Quilted Satin Jacket",
     price: 660,
     oldPrice: 799,
@@ -80,7 +80,7 @@ const products = [
     discount: "-17%",
   },
   {
-    image: "src/assets/CartImg/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.svg",
+    image: "/assets/CartImg/kids-electric-car-1.svg",
     name: "Kids Electric Car",
     price: 960,
     oldPrice: 1200,

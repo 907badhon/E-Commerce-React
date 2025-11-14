@@ -3,22 +3,22 @@ import { FaApple, FaWindows, FaHeadphones, FaArrowRight } from "react-icons/fa";
 
 const slides = [
   {
-    image: "src/assets/HeroImg/hero_endframe__cvklg0xk3w6e_large 2.png", // 📱 iPhone image
-    icon: FaApple, 
+    image: "/assets/HeroImg/hero_endframe__cvklg0xk3w6e_large 2.png",
+    icon: FaApple,
     title: "iPhone 14 Series",
     subtitle: "Up to 10% off Voucher",
     button: "Shop iPhones",
   },
   {
-    image: "src/assets/HeroImg/photo-1531297484001-80022131f5a1.jpeg", // 💻 Laptop image
-    icon: FaWindows, 
+    image: "/assets/HeroImg/photo-1531297484001-80022131f5a1.jpeg",
+    icon: FaWindows,
     title: "Powerful Laptops",
     subtitle: "Save big on performance",
     button: "Shop Laptops",
   },
   {
-    image: "src/assets/HeroImg/Dark Photo Ideas.jpeg", // 🎧 Headphone image
-    icon: FaHeadphones, 
+    image: "/assets/HeroImg/Dark Photo Ideas.jpeg",
+    icon: FaHeadphones,
     title: "Wireless Headphones",
     subtitle: "Feel the beat, wire‑free",
     button: "Shop Audio",
