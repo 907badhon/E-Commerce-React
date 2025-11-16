@@ -1,6 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import FlashSaleCard from "./FlashSaleCard";
 import products from "./flashSaleData.js";
+import ArrowNavigation from "../../CommonComponent/ArrowNavigation";
+
+
 
 function FlashSaleSlider() {
   const [position, setPosition] = useState(0);
@@ -12,7 +15,7 @@ function FlashSaleSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setPosition((prev) => prev + 1);
-    }, 2000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -30,14 +33,18 @@ function FlashSaleSlider() {
     slider.addEventListener("transitionend", handleTransitionEnd);
     return () =>
       slider.removeEventListener("transitionend", handleTransitionEnd);
-  }, [position, products.length]);
+  }, [position]);
 
   return (
-    <div className="mt-10 w-full overflow-hidden pb-10">
+    <div className="mt-10 w-full overflow-hidden pb-10 ">
+      <ArrowNavigation
+        className="absolute top-[62px] left-[1055px]"
+        onRightClick={() =>console.log(1)}
+      />
       <div
         ref={sliderRef}
         className={`flex ${
-          isTransitioning ? "transition-transform duration-1000" : ""
+          isTransitioning ? "transition-transform duration-1500" : ""
         }`}
         style={{ transform: `translateX(-${position * 25}%)` }}
       >
