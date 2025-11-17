@@ -26,7 +26,7 @@ body {
   }
 
  .btn {
-    @apply inline-block px-12 py-4 rounded text-white font-semibold transition;
+    @apply  px-12 py-4 rounded text-white font-semibold transition;
   }
 
 

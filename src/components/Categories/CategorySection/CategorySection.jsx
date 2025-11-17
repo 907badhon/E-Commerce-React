@@ -18,7 +18,7 @@ function CategorySection() {
     timerRef.current = setInterval(() => {
       setActiveIndex(prev => (prev + 1) % deviceCategories.length);
       setPosition((prev) => prev + 1);
-    }, 3000);
+    }, 4000);
     return () => clearInterval(timerRef.current);
   }, []);
 
@@ -27,7 +27,7 @@ function CategorySection() {
     timerRef.current = setInterval(() => {
       setPosition((prev) => prev + 1);
       setActiveIndex(prev => (prev + 1) % deviceCategories.length);
-    }, 3000);
+    }, 4000);
   };
 
   // Looping slider
@@ -71,17 +71,17 @@ const onRightClick = () => {
       <div
         ref={sliderRef}
         className={`flex gap-[30px] ${
-          isResetting ? "" : "transition-transform duration-700 ease"
+          isResetting ? "" : "transition-transform duration-1000 ease"
         }`}
         style={{ transform: `translateX(-${position * 200}px)` }}
       >
         {newCategories.map((device, index) => (
           <div
             onClick={() => {
-              setActiveIndex(index % deviceCategories.length); // just highlight
+              setActiveIndex(index % deviceCategories.length); 
             }}
             key={index}
-            className="flex shrink-0 cursor-pointer"
+            className="flex shrink-0 cursor-pointer "
           >
             <CategoryCard
               name={device.name}

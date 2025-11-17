@@ -44,7 +44,7 @@ const products = [
     name: "CANON EOS DSLR Camera",
     price: 360,
     oldPrice: 450,
-    rating: { stars: 4, count: 140 },
+    rating: { stars: 5, count: 140 },
     discount: "-20%",
   },
   {
@@ -60,7 +60,7 @@ const products = [
     name: "Gucci Duffle Bag",
     price: 960,
     oldPrice: 1200,
-    rating: { stars: 4, count: 75 },
+    rating: { stars: 5, count: 75 },
     discount: "-20%",
   },
   {
@@ -70,6 +70,14 @@ const products = [
     oldPrice: 220,
     rating: { stars: 5, count: 95 },
     discount: "-27%",
+  },
+    {
+    image: "/assets/CartImg/pic2.svg",
+    name: "GP11 Gaming Mouse",
+    price: 560,
+    oldPrice: 799,
+    rating: { stars: 5, count: 85 },
+    discount: "-30%",
   },
   {
     image: "/assets/CartImg/pic10.svg",
@@ -86,6 +94,14 @@ const products = [
     oldPrice: 1200,
     rating: { stars: 5, count: 150 },
     discount: "-20%",
+  },
+    {
+    image: "/assets/CartImg/pic4.svg",
+    name: "S-Series Comfort Chair",
+    price: 375,
+    oldPrice: 499,
+    rating: { stars: 5, count: 190 },
+    discount: "-24%",
   },
 ];
 
