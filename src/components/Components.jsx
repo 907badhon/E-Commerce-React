@@ -6,6 +6,7 @@ import BestSellingSection from "./BestSellingSection/BestSellingSection"
 import JBLPromoSection from "./JBLPromoSection/JBLPromoSection"
 import NewArrival from "./NewArrival/NewArrival"
 import SupportFeatured from "./SupportFeatured/SupportFeatured"
+import FooterSection from  "./FooterSection/FooterSection"
 
 function Components() {
   return (
@@ -18,6 +19,7 @@ function Components() {
       <JBLPromoSection />
       <NewArrival />
       <SupportFeatured />
+      <FooterSection />
     </div>
   );
 }
